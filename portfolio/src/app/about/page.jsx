@@ -1,9 +1,11 @@
-import React from 'react'
+import Navbar from "../ui/navbar"
 
-function About() {
+
+export default function About() {
   return (
+    <>
+    <Navbar/>
     <h1 className="text-3xl font-bold underline">About page ya kim</h1>
+    </>
   )
 }
-
-export default About
