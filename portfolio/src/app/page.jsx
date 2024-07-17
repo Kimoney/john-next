@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <h1>John Kimani</h1>
+    <h1 className="text-3xl font-bold underline">John Kimani</h1>
   )
 }
