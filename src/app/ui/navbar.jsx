@@ -11,14 +11,17 @@ export default function Navbar() {
   return (
     <>
     {/* Medium Devices and Above*/}
-    <div className="hidden md:block text-center text-2xl pt-4 space-x-12">
+  <div className="hidden md:block">
+  <div className="flex justify-center">
+    <button className="inline-block md:inline border-solid rounded-2xl border border-gray-700 bg-gray-950 text-xl p-4 mt-6 space-x-12">
     <Link href="/" className={`inline-block md:inline hover:text-orange-400 ${pathname === '/' ? 'text-orange-500' : ''}`}> Home</Link>
     <Link href="/services" className={`inline-block md:inline hover:text-orange-400 ${pathname === '/services' ? 'text-orange-500' : ''}`}> Services</Link>
     <Link href="/portfolio" className={`inline-block md:inline hover:text-orange-400 ${pathname === '/portfolio' ? 'text-orange-500' : ''}`}> Portfolio</Link>
     <Link href="/about" className={`inline-block md:inline hover:text-orange-400 ${pathname === '/about' ? 'text-orange-500' : ''}`}> About</Link>
     <Link href="/contact" className={`inline-block md:inline hover:text-orange-400 ${pathname === '/contact' ? 'text-orange-500' : ''}`}> Contact</Link>
+    </button>
     </div>
-    
+  </div>  
     {/* Mobile Devices View */}
     
     <div className="md:hidden flex place-content-around text-3xl pt-3 space-x-6">
