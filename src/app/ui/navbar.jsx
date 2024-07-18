@@ -1,11 +1,12 @@
 import Link from "next/link"
-import { Home, Briefcase, Users, Info, Mail } from "react-feather";
+import { FaHouseUser, FaPhone, FaCircleInfo } from "react-icons/fa6";
+import { MdCollectionsBookmark, MdEngineering } from "react-icons/md";
 
 export default function Navbar() {
   return (
     <>
     {/* Medium Devices and Above*/}
-    <div className="hidden md:block text-center text-lg font-semibold space-x-12">
+    <div className="hidden md:block text-center text-2xl pt-4 space-x-12">
     <Link className="inline-block md:inline" href="/"> Home</Link>
     <Link className="inline-block md:inline" href="/services"> Services</Link>
     <Link className="inline-block md:inline" href="/portfolio"> Portfolio</Link>
@@ -15,13 +16,13 @@ export default function Navbar() {
     
     {/* Mobile Devices View */}
     
-    <div className="md:hidden flex place-content-around space-x-6">
+    <div className="md:hidden flex place-content-around text-3xl text-cyan-100 pt-3 space-x-6">
 
-    <Link className="md:hidden" href="/"> <Home/> </Link>
-    <Link className="md:hidden" href="/services"> <Briefcase/> </Link>
-    <Link className="md:hidden" href="/portfolio"> <Users/> </Link>
-    <Link className="md:hidden" href="/about"> <Info/> </Link>
-    <Link className="md:hidden" href="/contact"> <Mail/> </Link>
+    <Link className="md:hidden" href="/"> <FaHouseUser/> </Link>
+    <Link className="md:hidden" href="/services"> <MdEngineering/> </Link>
+    <Link className="md:hidden" href="/portfolio"> <MdCollectionsBookmark/> </Link>
+    <Link className="md:hidden" href="/about"> <FaCircleInfo /> </Link>
+    <Link className="md:hidden" href="/contact"> <FaPhone/> </Link>
     </div>
     </>
   )
