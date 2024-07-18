@@ -28,7 +28,7 @@ export default function Navbar() {
     <div className="flex flex-row justify-center">
 
     <button className="md:hidden border-solid rounded-2xl border border-gray-700 bg-gray-950 text-xl p-4 mt-6">
-    <div className="flex space-x-12">
+    <div className="flex space-x-16">
     <Link href="/" className={`md:hidden hover:text-orange-400 ${pathname === '/' ? 'text-orange-500' : ''}`}> <FaHouseUser/> </Link>
     <Link href="/services" className={`md:hidden hover:text-orange-400 ${pathname === '/services' ? 'text-orange-500' : ''}`}> <MdEngineering/> </Link>
     <Link href="/portfolio" className={`md:hidden hover:text-orange-400 ${pathname === '/portfolio' ? 'text-orange-500' : ''}`}> <MdCollectionsBookmark/> </Link>
