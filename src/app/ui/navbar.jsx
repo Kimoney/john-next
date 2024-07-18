@@ -27,7 +27,7 @@ export default function Navbar() {
     <Link href="/services" className={`md:hidden hover:text-orange-400 ${pathname === '/services' ? 'text-orange-500' : ''}`}> <MdEngineering/> </Link>
     <Link href="/portfolio" className={`md:hidden hover:text-orange-400 ${pathname === '/portfolio' ? 'text-orange-500' : ''}`}> <MdCollectionsBookmark/> </Link>
     <Link href="/about" className={`md:hidden hover:text-orange-400 ${pathname === '/about' ? 'text-orange-500' : ''}`}> <FaCircleInfo /> </Link>
-    <Link href="/contact" className={`md:hidden hover:text-orange-400 ${pathname === 'contact' ? 'text-orange-500' : ''}`}> <FaPhone/> </Link>
+    <Link href="/contact" className={`md:hidden hover:text-orange-400 ${pathname === '/contact' ? 'text-orange-500' : ''}`}> <FaPhone/> </Link>
     </div>
     </>
   )
