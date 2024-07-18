@@ -23,11 +23,11 @@ export default function Navbar() {
     
     <div className="md:hidden flex place-content-around text-3xl pt-3 space-x-6">
 
-    <Link className="md:hidden hover:text-orange-400" href="/"> <FaHouseUser/> </Link>
-    <Link className="md:hidden hover:text-orange-400" href="/services"> <MdEngineering/> </Link>
-    <Link className="md:hidden hover:text-orange-400" href="/portfolio"> <MdCollectionsBookmark/> </Link>
-    <Link className="md:hidden hover:text-orange-400" href="/about"> <FaCircleInfo /> </Link>
-    <Link className="md:hidden hover:text-orange-400" href="/contact"> <FaPhone/> </Link>
+    <Link href="/" className={`md:hidden hover:text-orange-400 ${pathname === '/' ? 'text-orange-500' : ''}`}> <FaHouseUser/> </Link>
+    <Link href="/services" className={`md:hidden hover:text-orange-400 ${pathname === '/services' ? 'text-orange-500' : ''}`}> <MdEngineering/> </Link>
+    <Link href="/portfolio" className={`md:hidden hover:text-orange-400 ${pathname === '/portfolio' ? 'text-orange-500' : ''}`}> <MdCollectionsBookmark/> </Link>
+    <Link href="/about" className={`md:hidden hover:text-orange-400 ${pathname === '/about' ? 'text-orange-500' : ''}`}> <FaCircleInfo /> </Link>
+    <Link href="/contact" className={`md:hidden hover:text-orange-400 ${pathname === 'contact' ? 'text-orange-500' : ''}`}> <FaPhone/> </Link>
     </div>
     </>
   )
