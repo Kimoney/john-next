@@ -16,7 +16,7 @@ export default function Navbar() {
     
     {/* Mobile Devices View */}
     
-    <div className="md:hidden flex place-content-around text-3xl text-cyan-100 pt-3 space-x-6">
+    <div className="md:hidden flex place-content-around text-3xl pt-3 space-x-6">
 
     <Link className="md:hidden" href="/"> <FaHouseUser/> </Link>
     <Link className="md:hidden" href="/services"> <MdEngineering/> </Link>
