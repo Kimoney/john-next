@@ -17,13 +17,13 @@ export default function Home() {
       />
     </div>
     <div className="text-left mt-16">
-      <h1 className="text-6xl font-extrabold">
+      <h1 className="text-4xl md:text-6xl font-extrabold">
         Hi, I am <span className="text-orange-500">John Kimani</span>.
       </h1>
-      <h1 className="text-3xl mt-6 font-bold">
+      <h1 className="text-2xl md:text-3xl mt-6 font-bold">
         A seasoned <span className="text-orange-500">FullStack Developer</span>.
       </h1>
-      <h2 className="text-lg mt-6 px-2">
+      <h2 className="text-base md:text-lg mt-6 px-2">
         From concept to completion, I provide clean code and pixel-perfect designs for outstanding websites.
         <br />
         My experience in customer relationship management ensures that every project is <span className="text-orange-500 font-bold">user-centric</span> and <span className="text-orange-500 font-bold">impactful</span>.
