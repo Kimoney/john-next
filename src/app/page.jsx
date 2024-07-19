@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Navbar from '../app/ui/navbar'
+import Footer from '../app/ui/footer'
 import Image from 'next/image'
 
 export default function Home() {
@@ -51,6 +52,7 @@ export default function Home() {
           </motion.h2>
         </div>
       </div>
+      <Footer />
     </>
 
   )
