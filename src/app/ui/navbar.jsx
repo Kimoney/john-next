@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <>
     {/* Medium Devices and Above*/}
-  <div className="hidden md:block">
+  <div className="hidden md:block sticky top-0">
   <div className="flex justify-center">
     <button className="inline-block md:inline border-solid rounded-2xl border border-gray-700 bg-gray-950 text-xl p-4 mt-6 space-x-12">
     <Link href="/" className={`inline-block md:inline hover:text-orange-400 ${pathname === '/' ? 'text-orange-500' : ''}`}> Home</Link>
@@ -24,7 +24,7 @@ export default function Navbar() {
   </div>  
     {/* Mobile Devices View */}
     
-    <div className="md:hidden">
+    <div className="md:hidden sticky top-0">
     <div className="flex flex-row justify-center">
 
     <button className="md:hidden border-solid rounded-2xl border border-gray-700 bg-gray-950 text-xl p-4 mt-6">
