@@ -7,9 +7,23 @@ export default function Services() {
     <>
     <Navbar/>
     <div className="container mx-auto">
-    <div className="m-24">
-      <h1 className="text-4xl text-center font-bold"><span className="text-orange-500" >Services</span> I Offer</h1>
+
+    {/* Page Heading */}
+
+    <div className="relative">
+      <div className="absolute inset-0 flex justify-center items-center">
+        <h1 className="text-9xl uppercase font-extrabold text-stone-950">Services</h1>
+      </div>
+      <div className="m-24 relative z-10">
+        <h1 className="text-4xl text-center font-bold">
+          What <span className="text-orange-500">I</span> Offer
+        </h1>
+        <hr className="w-1/12 h-0.5 mx-auto mt-2 bg-gradient-to-r from-gray-500 via-orange-500 to-gray-500 border-0"/>
+      </div>
     </div>
+
+    {/* Services Cards */}
+
     <div className="grid grid-cols-2 gap-x-8 gap-y-16">
       
       <div className="bg-gray-900 rounded-lg max-h-64 border-2 border-gray-500">
