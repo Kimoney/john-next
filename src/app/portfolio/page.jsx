@@ -9,7 +9,7 @@ export default function Portfolio() {
 
     <div className="relative">
         <div className="absolute inset-0 flex justify-center items-center">
-          <h1 className="uppercase font-extrabold text-stone-950 whitespace-nowrap text-7xl sm:text-7xl md:text-9xl lg:text-[9rem] xl:text-[9rem]">About</h1>
+          <h1 className="uppercase font-extrabold text-stone-950 whitespace-nowrap text-7xl sm:text-7xl md:text-9xl lg:text-[9rem] xl:text-[9rem]">Portfolio</h1>
         </div>
         <div className="m-4 sm:m-8 md:m-16 lg:m-24 relative z-10">
           <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-center font-bold">
