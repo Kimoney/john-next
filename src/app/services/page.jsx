@@ -12,7 +12,7 @@ export default function Services() {
 
     <div className="relative">
       <div className="absolute inset-0 flex justify-center items-center">
-        <h1 className="text-9xl uppercase font-extrabold text-stone-950">Services</h1>
+        <h1 style={{ fontSize: '9rem' }} className="uppercase font-extrabold text-stone-950">Services</h1>
       </div>
       <div className="m-24 relative z-10">
         <h1 className="text-4xl text-center font-bold">
