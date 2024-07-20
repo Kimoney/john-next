@@ -20,7 +20,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">Web Development</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">Web Design</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">Maintainance and Support</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">AI Integration</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">SEO & Performance Optimization</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">Graphic Design</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">Branding Design</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function Services() {
           <div className="col-start-2 col-span-3">
             <h2 className="text-2xl uppercase font-extrabold text-orange-500 mt-4">Web Design</h2>
             <p className="text-lg mt-4">
-            Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus libero neque, lobortis rhoncus turpis dictum quis. Etiam cursus hendrerit ante non sodales.
             </p>
           </div>
         </div>
