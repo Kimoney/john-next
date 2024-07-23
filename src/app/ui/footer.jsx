@@ -17,7 +17,7 @@ export default function Footer() {
           <a href="https://github.com/Kimoney" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-700 hover:text-orange-500 transition-colors" />
           </a>
-          <a href="https://linkedin.com/in/john-muchina-561365144" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/john-kimani-m/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-gray-700 hover:text-orange-500 transition-colors" />
           </a>
           <a href="https://twitter.com/jay_kym_" target="_blank" rel="noopener noreferrer">
