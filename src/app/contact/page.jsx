@@ -1,4 +1,5 @@
 import Navbar from "../ui/navbar"
+import Footer from "../ui/footer";
 import { AiOutlineMail, AiOutlineEnvironment, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'; // Import icons from react-icons
 
 
@@ -36,7 +37,7 @@ export default function Contact() {
                 id="firstName"
                 name="firstName"
                 placeholder="First Name"
-                className="mt-1 bg-slate-700 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
+                className="mt-1 bg-gray-950 bg-opacity-75 block w-full border border-gray-200 focus:border-orange-400-400 rounded-md sm:text-sm px-3 py-2"
                 required
               />
 
@@ -46,7 +47,7 @@ export default function Contact() {
                 id="lastName"
                 name="lastName"
                 placeholder="Last Name"
-                className="mt-1 bg-slate-700 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
+                className="mt-1 bg-gray-950 bg-opacity-75 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
                 required
               />
             </div>
@@ -59,7 +60,7 @@ export default function Contact() {
                 id="email"
                 name="email"
                 placeholder="Email Address"
-                className="mt-1 bg-slate-700 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
+                className="mt-1 bg-gray-950 bg-opacity-75 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
                 required
               />
             </div>
@@ -70,7 +71,7 @@ export default function Contact() {
                 type="text"
                 id="phoneNumber"
                 name="phoneNumber"
-                className="mt-1 bg-slate-700 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
+                className="mt-1 bg-gray-950 bg-opacity-75 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
                 placeholder="Phone number"
                 required
               />
@@ -81,7 +82,7 @@ export default function Contact() {
               id="message"
               name="message"
               rows={4}
-              className="mt-1 bg-slate-700 block w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
+              className="mt-1 bg-gray-950 bg-opacity-75 w-full border border-gray-200 rounded-md sm:text-sm px-3 py-2"
               placeholder="Enter Your Message"
               required
             />
@@ -119,6 +120,9 @@ export default function Contact() {
         </div>
         </div>
       </div>
+
+    <Footer />
+
     </>
   )
 }
