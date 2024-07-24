@@ -26,7 +26,7 @@ export default function Contact() {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
         {/* Left Side: Contact Form */}
         <div className="p-6 rounded-lg shadow-lg bg-opacity-75 border border-gray-700">
-        <h2 className="text-2xl font-bold mb-4">Contact Form</h2>
+        <h2 className="text-3xl font-bold mb-4">Contact Form</h2>
 
         <form className="space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -97,24 +97,26 @@ export default function Contact() {
       </div>
 
         {/* Right Side: Contact Details */}
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">Contact Info</h2>
-          <div className="mb-4 flex items-center">
-            <AiOutlineMail className="text-gray-600 mr-2" size={20} />
-            <span>kimani@example.com</span>
-          </div>
-          <div className="mb-4 flex items-center">
-            <AiOutlineEnvironment className="text-gray-600 mr-2" size={20} />
-            <span>Nairobi, Kenya</span>
-          </div>
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-600 hover:text-gray-900">
-              <AiFillGithub className="w-6 h-6" />
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
-              <AiFillLinkedin className="w-6 h-6" />
-            </a>
-          </div>
+
+
+      <div className="p-6 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-bold mb-8">Contact Info</h2>
+        <div className="mb-6 flex items-center">
+          <AiOutlineMail className="mr-2 text-3xl"/>
+            <span className="text-xl">kimani@example.com</span>
+        </div>
+        <div className="mb-4 flex items-center">
+          <AiOutlineEnvironment className="mr-2 text-3xl"/>
+          <span className="text-xl">Nairobi, Kenya</span>
+        </div>
+        <div className="flex space-x-4 mt-12">
+          <a href="https://github.com/Kimoney" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500">
+            <AiFillGithub className="text-5xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/john-kimani-m/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500">
+            <AiFillLinkedin className="text-5xl" />
+          </a>
+        </div>
         </div>
       </div>
     </>
