@@ -35,8 +35,8 @@ export default function About() {
               src="/profilePic.jpg" // Replace with your actual image path
               alt="John Kimani's Photo"
               priority
-              layout="fill"
-              objectFit="cover"
+              width={500}
+              height={500}
               className="rounded-full"
             />
           </div>
