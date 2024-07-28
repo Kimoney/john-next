@@ -100,7 +100,7 @@ export default function Contact() {
         {/* Right Side: Contact Details */}
 
 
-      <div className="p-6 rounded-lg shadow-lg">
+      <div className="p-6 rounded-lg shadow-lg bg-opacity-75 border border-gray-700">
         <h2 className="text-3xl font-bold mb-8">Contact Info</h2>
         <div className="mb-6 flex items-center">
           <AiOutlineMail className="mr-2 text-3xl"/>
