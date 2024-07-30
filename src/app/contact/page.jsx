@@ -16,7 +16,7 @@ export default function Contact() {
         </div>
         <div className="m-4 sm:m-8 md:m-16 lg:m-24 relative z-10">
           <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl text-center font-bold">
-            Hello, let us <span className="text-orange-500">connect</span>
+            Talk to <span className="text-orange-500">me</span>
           </h1>
           <hr className="w-1/6 sm:w-1/6 md:w-1/8 lg:w-1/12 h-0.5 mx-auto mt-1 bg-gradient-to-r from-gray-500 via-orange-500 to-gray-500 border-0"/>
         </div>

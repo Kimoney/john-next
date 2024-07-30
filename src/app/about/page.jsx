@@ -51,13 +51,13 @@ export default function About() {
             I am a Visual Designer with a strong focus on digital branding. Visual design seeks to attract, inspire, create desires, and motivate people to respond to messages, with a view to making a favorable impact.
           </p>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> Email:</span> devis@example.com</p>
+            <p className="text-lg"><span className="font-bold text-orange-500"> Email:</span> john.kimani.muchina@gmail.com</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> From:</span> 2661 Hich Meadow Lane, Bear Creek</p>
+            <p className="text-lg"><span className="font-bold text-orange-500"> From:</span> Nairobi, Kenya</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> Language:</span> English</p>
+            <p className="text-lg"><span className="font-bold text-orange-500"> Languages:</span> English, Swahili</p>
           </div>
           <div className="mb-4">
             <p className="text-lg"><span className="font-bold text-orange-500"> Remote:</span> Available</p>
@@ -69,7 +69,7 @@ export default function About() {
             <p className="text-lg"><span className="font-bold text-orange-500">On-Site:</span> Available</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500">Freelance:</span> Available</p>
+            <p className="text-lg"><span className="font-bold text-orange-500">Freelance Contract:</span> Available</p>
           </div>
           <button className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
             <FiDownload className="inline-block mr-2" /> Download Resume
