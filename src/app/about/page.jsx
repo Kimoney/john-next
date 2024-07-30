@@ -71,9 +71,11 @@ export default function About() {
           <div className="mb-4">
             <p className="text-lg"><span className="font-bold text-orange-500">Freelance Contract:</span> Available</p>
           </div>
+          <a href="/John-Kimani-Muchina-Software-Engineer.pdf" download>
           <button className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
             <FiDownload className="inline-block mr-2" /> Download Resume
           </button>
+          </a>
         </div>
 
       </div>
