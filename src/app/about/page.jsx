@@ -45,31 +45,36 @@ export default function About() {
         {/* Right Column: Text Content */}
 
         <div className="lg:w-1/2 lg:pr-8">
-          <h1 className="text-3xl lg:text-5xl font-bold mb-4">Hi There! I am <span className="text-orange-500">John Kimani</span></h1>
-          <h2 className="text-xl lg:text-3xl font-bold mb-4">Software Developer</h2>
-          <p className="mb-4">
-            I am a Visual Designer with a strong focus on digital branding. Visual design seeks to attract, inspire, create desires, and motivate people to respond to messages, with a view to making a favorable impact.
-          </p>
+          <h1 className="text-3xl lg:text-5xl font-bold mb-4">Hi There! I am <span className="text-orange-500">John Kimani</span>.</h1>
+          <h2 className="text-xl lg:text-3xl font-bold mb-4">A Proficient <span className="text-orange-500">Software Developer</span>.</h2>
+
+          <p className="mb-2 text-lg">I am a highly motivated and skilled full-stack developer with a strong focus on creating efficient, scalable, and user-friendly applications.</p>
+          <p className="mb-2 text-lg">My expertise spans both front-end and back-end development, allowing me to build complete solutions from concept to deployment.</p>
+          <p className="mb-2 text-lg">I am proficient in technologies like JavaScript, React, Node.js, Python, Django, and have experience with modern frameworks such as Next.js.</p>
+          <p className="mb-2 text-lg">My passion for learning and staying up-to-date with industry trends enables me to continually improve my skills and deliver innovative solutions.</p>
+          <p className="mb-2 text-lg">I thrive in collaborative environments and am committed to writing clean, maintainable code while ensuring high performance and security standards.</p>
+          <p className="mb-6 text-lg"><span className="text-orange-500 font-bold text-xl">Fun Fact: </span>When I am not coding, you can find me as a freedom rider on the open road, where the only bugs I encounter are those that splat against my helmet!</p>
+
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> Email:</span> john.kimani.muchina@gmail.com</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">Email:</span> john.kimani.muchina@gmail.com</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> From:</span> Nairobi, Kenya</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">From:</span> Nairobi, Kenya</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> Languages:</span> English, Swahili</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">Languages:</span> English, Swahili</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> Remote:</span> Available</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">Remote:</span> Available</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500"> Hybrid:</span> Available</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">Hybrid:</span> Available</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500">On-Site:</span> Available</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">On-Site:</span> Available</p>
           </div>
           <div className="mb-4">
-            <p className="text-lg"><span className="font-bold text-orange-500">Freelance Contract:</span> Available</p>
+            <p className="text-lg"><span className="font-bold text-orange-500 text-xl">Freelance Contract:</span> Available</p>
           </div>
           <a href="/John-Kimani-Muchina-Software-Engineer.pdf" download>
           <button className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
