@@ -2,10 +2,24 @@ import Navbar from "../ui/navbar"
 import Footer from "../ui/footer";
 import Image from "next/image"
 // import profilePic from '../public/profilePic.jpg'
+// import { FiDownload } from 'react-icons/fi';
 import { FiDownload } from 'react-icons/fi';
+import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs, FaDatabase, FaFlask } from 'react-icons/fa';
+import { SiNextdotjs, SiTypescript, SiJavascript } from 'react-icons/si';
 
 
 export default function About() {
+  const technologies = [
+    { icon: <SiJavascript />, name: 'JavaScript' },
+    { icon: <FaPython />, name: 'Python' },
+    { icon: <FaReact />, name: 'React' },
+    { icon: <FaFlask />, name: 'Flask' },
+    { icon: <FaDatabase />, name: 'SQL' },
+    { icon: <FaCss3Alt />, name: 'CSS' },
+    { icon: <FaHtml5 />, name: 'HTML' },
+    { icon: <SiNextdotjs />, name: 'Next.js' },
+    { icon: <SiTypescript />, name: 'TypeScript' },
+  ];
   return (
     <>
     <Navbar/>
@@ -27,20 +41,36 @@ export default function About() {
 
       <div className="container mx-auto px-4 py-8 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0">
 
-      {/* Left Column: Image */}
+      {/* Left Column: Image and Technologies */}
+      <div className="lg:w-1/3 lg:pl-8">
+          {/* Image */}
+          <div className="flex justify-center mb-8">
+            <div className="relative w-64 h-64 lg:w-80 lg:h-80">
+              <Image
+                src="/profilePic.jpg" // Replace with your actual image path
+                alt="John Kimani's Photo"
+                priority
+                width={500}
+                height={500}
+                className="rounded-full border-4 border-orange-500"
+              />
+            </div>
+          </div>
 
-        <div className="lg:w-1/2 lg:pl-8 flex justify-center">
-          <div className="relative w-64 h-64 lg:w-80 lg:h-80">
-            <Image
-              src="/profilePic.jpg" // Replace with your actual image path
-              alt="John Kimani's Photo"
-              priority
-              width={500}
-              height={500}
-              className="rounded-full"
-            />
+          {/* Technologies */}
+          <div>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-4">Technologies</h2>
+            <div className="grid grid-cols-2 gap-4">
+              {technologies.map((tech, index) => (
+                <div key={index} className="flex items-center space-x-2 p-2 border border-gray-200 rounded-md shadow-sm">
+                  <div className="text-2xl text-orange-500">{tech.icon}</div>
+                  <span className="text-lg font-semibold">{tech.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
+
 
         {/* Right Column: Text Content */}
 
