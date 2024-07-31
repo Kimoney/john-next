@@ -50,8 +50,8 @@ export default function About() {
 
           <p className="mb-2 text-lg">I am a highly motivated and skilled full-stack developer with a strong focus on creating efficient, scalable, and user-friendly applications.</p>
           <p className="mb-2 text-lg">My expertise spans both front-end and back-end development, allowing me to build complete solutions from concept to deployment.</p>
-          <p className="mb-2 text-lg">I am proficient in technologies like JavaScript, React, Node.js, Python, Django, and have experience with modern frameworks such as Next.js.</p>
-          <p className="mb-2 text-lg">My passion for learning and staying up-to-date with industry trends enables me to continually improve my skills and deliver innovative solutions.</p>
+          {/* <p className="mb-2 text-lg">I am proficient in technologies like JavaScript, React, Node.js, Python, Django, and have experience with modern frameworks such as Next.js.</p> */}
+          {/* <p className="mb-2 text-lg">My passion for learning and staying up-to-date with industry trends enables me to continually improve my skills and deliver innovative solutions.</p> */}
           <p className="mb-2 text-lg">I thrive in collaborative environments and am committed to writing clean, maintainable code while ensuring high performance and security standards.</p>
           <p className="mb-6 text-lg"><span className="text-orange-500 font-bold text-xl">Fun Fact: </span>When I am not coding, you can find me as a freedom rider on the open road, where the only bugs I encounter are those that splat against my helmet!</p>
 
@@ -76,7 +76,7 @@ export default function About() {
           <div className="mb-4">
             <p className="text-lg"><span className="font-bold text-orange-500 text-xl">Freelance Contract:</span> Available</p>
           </div>
-          <a href="/John-Kimani-Muchina-Software-Engineer.pdf" download>
+          <a href="/John-Kimani-Muchina-Software-Engineer-Resume.pdf" download>
           <button className="bg-orange-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
             <FiDownload className="inline-block mr-2" /> Download Resume
           </button>
